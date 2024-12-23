@@ -1,28 +1,32 @@
 # Expense-Tracker-main
 ## Project Overview
-Expense Tracker is a desktop application built with Java and PostgreSQL for efficient management and analysis of personal expenses. The application features a clean, user-friendly interface created using JavaFX, with database connectivity handled via JDBC. It allows users to track, filter, and manage their financial records effectively.
+Expense Tracker is a desktop application built with Java and PostgreSQL for efficient management and analysis of personal expenses. 
+The application features a clean, user-friendly interface created using JavaFX, with database connectivity handled via JDBC. 
+It allows users to track, filter, and manage their financial records effectively.
 
-##Features
+## Features
 Add Expenses: Enter description, amount, category, and date for each expense.
 View All Expenses: Display all recorded data in a structured format.
-Filter Data:
-By Month: View expenses for a specific month.
-By Category: Filter expenses by predefined categories (e.g., Food, Transport).
-Update Expenses: Modify existing records.
-Delete Expenses: Remove specific or all records from the database.
-Technologies Used
-Programming Language: Java (11+)
-UI Framework: JavaFX
-Database: PostgreSQL
-Integration: JDBC for database communication
-Setup Guide
-1. Prerequisites
+### Filter Data:
+- By Month: View expenses for a specific month.
+- By Category: Filter expenses by predefined categories (e.g., Food, Transport).
+- Update Expenses: Modify existing records.
+- Delete Expenses: Remove specific or all records from the database. 
+### Technologies Used
+- Programming Language: Java (11+)
+- UI Framework: JavaFX
+### Database: PostgreSQL
+- Integration: JDBC for database communication
+- Setup Guide
+  
+## 1. Prerequisites
 Before running the project, ensure you have the following installed:
 
-JDK (Java Development Kit): Version 11 or higher
-PostgreSQL: For database setup and management
-IDE: IntelliJ IDEA, Eclipse, or any preferred IDE
-2. Database Configuration
+- JDK (Java Development Kit): Version 11 or higher
+- PostgreSQL: For database setup and management
+- IDE: IntelliJ IDEA, Eclipse, or any preferred IDE
+  
+## 2. Database Configuration
 Create Database: Open PostgreSQL and create a database:
 sql
 Копировать код
